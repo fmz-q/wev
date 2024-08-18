@@ -39,7 +39,7 @@ function startPage() {
                 mainButtons.style.opacity = 1;
             });
 
-            enterButton.style.display = "one";
+            enterButton.style.display = "none";
         }, 500);
     }, 1000);
     
@@ -145,7 +145,7 @@ function memberCall(pfpSrc, textContent, user) {
 
         displayText.innerHTML = textContent;
         pfpImage.src = pfpSrc;
-        randomGif.style.display = "one";
+        randomGif.style.display = "none";
 
         transitionActive = false;
     }
@@ -210,8 +210,14 @@ function getRandomSentence() {
 }
 
 var gifs = [
-
+    
+    "sui.gif",
+    "ray.gif",
+    "leg.gif",
+    "shiny.gif",
+    "darkrai.gif",
     "mewtwo.gif",
+    "gengar.gif",
 
     ];
 

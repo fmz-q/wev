@@ -158,7 +158,7 @@ body, html {
 .display-text {
     transition: opacity 1s ease-in-out;
     text-align: center;
-    max-width: 50%;
+    max-width: 100%;
     box-sizing: border-box;
 }
 
@@ -176,7 +176,30 @@ body, html {
 
 
 
+.buttons-container button:hover[data-gif="leg.gif"] {
+    color: rgba(255, 243, 81, 1);
+}
+
+.buttons-container button:hover[data-gif="shiny.gif"] {
+    color: rgba(255, 243, 81, 1);
+}
+
+.buttons-container button:hover[data-gif="darkrai.gif"] {
+    color: rgba(255, 243, 81, 1);
+}
 
 .buttons-container button:hover[data-gif="mewtwo.gif"] {
+    color: rgba(255, 243, 81, 1);
+}
+
+.buttons-container button:hover[data-gif="ray.gif"] {
+    color: rgba(255, 243, 81, 1);
+}
+
+.buttons-container button:hover[data-gif="sui.gif"] {
+    color: rgba(255, 243, 81, 1);
+}
+
+.buttons-container button:hover[data-gif="gengar.gif"] {
     color: rgba(255, 243, 81, 1);
 }
